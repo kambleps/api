@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fetch api</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="btn-div">
+            <button id="data-api" class="btn">Click me</button>
+        </div>
+    <div class="table">
+        <table id="table-posts">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Title</th>
+                    <th>Body</th>
+                    <th id="tags" colspan="3">Tags</th>
+                </tr>
+            </thead>
+            <tbody id="table-posts-tbody"></tbody>
+        </table>
+        <table id="table-projects">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Title</th>
+                    <th>Description</th>
+                    <th>Price</th>
+                    <th>DiscountPercentage</th>
+                    <th>Rating</th>
+                    <th>Stock</th>
+                    <th>Brand</th>
+                    <th>Category</th>
+                    <th>Thumbnail</th>
+                    <th colspan="5">Images</th>
+                </tr>
+            </thead>
+            <tbody id="add-projects"></tbody>
+        </table>
+        <table id="table-todos">
+            <thead>
+                <tr>
+                    <th>id</th>
+                    <th>todo</th>
+                    <th>completed</th>
+                    <th>userId</th>
+                </tr>
+            </thead>
+            <tbody id="table-tbody">
+
+            </tbody>
+        </table>
+    </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

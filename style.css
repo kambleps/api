@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  .container {
+    margin: 2% 5%;
+  }
+  body {
+    background: lightcyan;
+  }
+  button {
+    width:130px;
+    height: 70px;
+    border-radius: 50px;
+    background-color: blue;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  table,
+  td,
+  th {
+    border: 1px solid rgb(237, 216, 216);
+    text-align: left;
+    background-color: rgb(63, 207, 87);
+  }
+  #table-posts {
+    display: none;
+  }
+  #table-projects {
+    display: none;
+  }
+  #table-todos {
+    display: none;
+  }
+  .button:hover {
+    background-color: lightblue;
+    color: white;
+  }
+  table {
+    margin-top: 5%;
+  }
+  table {
+    width: 90%;
+    border-collapse: collapse;
+  }
+  th,
+  td {
+    padding: 15px;
+  }
+  th {
+    background-color: rgb(184, 119, 34);
+    color: black;
+  }
